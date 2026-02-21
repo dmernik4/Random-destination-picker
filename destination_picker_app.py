@@ -5,7 +5,7 @@ import streamlit as st
 from collections import Counter
 
 # Page configurations
-st.set_page_config(page_title="Family Destination Picker", page_icon="✈️", layout="wide")
+st.set_page_config(page_title="Family Destination Picker", layout="wide")
 
 st.title("✈️ Family Destination Draw Simulator")
 st.markdown("Add your destinations and family members, then run the simulation!")
