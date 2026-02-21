@@ -16,12 +16,12 @@ with st.sidebar:
 
     destinations_input = st.text_area(
         "Destinations (one per line)",
-        value="Madrid\nRim\nEdinbrough\nManchaster\nAmsterdam\nLisbona\nMalta\nSicilija\nSardinija\nValencija\nMalaga",
+        value="Madrid\nRome\nEdinburgh\nManchester\nAmsterdam\nLisbon\nMalta\nSicily\nSardinia\nValencia\nMalaga",
         height=220,
     )
 
     members_input = st.text_area(
-        "Family members (one per line)", value="Suzi\nDavid\nMia\nVid", height=120
+        "Family members (one per line)", value="Suzana\nDavid\nMia\nVid", height=120
     )
 
     draws = st.slider(
